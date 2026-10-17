@@ -23,8 +23,6 @@ To address these questions, my research spans:
 - Spectral methods for gravitational physics
 - Numerical relativity and compact-binary dynamics
 
-My current work includes the development of **METRICS**, a spectral framework for constructing and studying rotating black holes in extensions of General Relativity, as well as numerical-relativity studies of binary black holes interacting with ultralight fields.
-
 ## Research, teaching and publications
 
 More information is available on the pages below:

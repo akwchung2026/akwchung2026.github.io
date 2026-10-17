@@ -9,7 +9,7 @@ redirect_from:
 
 A full version of my curriculum vitae is available here:
 
-[**Download full CV (PDF)**](/files/Adrian_Chung_CV.pdf)
+[**Download full CV (PDF)**](/files/CV_website.pdf)
 
 ## Academic appointments
 
@@ -98,5 +98,3 @@ I have served as a referee for:
 - European Physical Journal C
 - Classical and Quantum Gravity
 - International Journal of Modern Physics D
-
-For a complete record of publications, talks, teaching, awards and service, please see the [**full CV (PDF)**](/files/CV_website.pdf).

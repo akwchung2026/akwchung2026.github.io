@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
@@ -15,7 +15,7 @@ title_separator : "-"
 name : &name "Adrian Chung"
 description : &description "Academic website of Adrian Chung"
 
-url : https://akwchung2026.github.io
+url : "https://akwchung2026.github.io"
 baseurl : ""
 repository : "akwchung2026/akwchung2026.github.io"
 
@@ -26,9 +26,9 @@ author:
   avatar : "profile.png"
   name : "Adrian K.W. Chung"
   pronouns :
-  bio : "College Assistant Professor in Applied Mathematics at St John's College, University of Cambridge."
+  bio : "College Assistant Professor in Applied Mathematics at St John's College, Cambridge."
   location : "Cambridge, UK"
-  employer : "St John's College, University of Cambridge"
+  employer : "St John's College, Cambridge"
   uri :
   email : "kwc43@cam.ac.uk"
 
@@ -46,18 +46,17 @@ author:
   scopus           : # URL
   zotero           : # URL
 
-
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
   github           : "akwchung2026"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -87,17 +86,17 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+talkmap_link             : false # change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -108,6 +107,7 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -124,10 +124,10 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
 
+atom_feed:
+  hide                   : true
+  path                   : # blank (default) uses feed.xml
 
 # SEO Related
 google_site_verification :
@@ -135,16 +135,18 @@ bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-
 # Social Sharing
 twitter:
   username               : &twitter
+
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+
+og_image                 :
+og_description           :
+
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -152,19 +154,18 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
-
 
 # Reading Files
 include:
   - .htaccess
   - _pages
   - files
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -192,12 +193,13 @@ exclude:
   - README
   - tmp
   - vendor
+
 keep_files:
   - .git
   - .svn
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -205,7 +207,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -217,7 +218,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
 
 # These settings control the types of collections used by the template
 collections:
@@ -234,7 +234,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
@@ -248,6 +247,7 @@ defaults:
       comments: true
       share: true
       related: true
+
   # _pages
   - scope:
       path: ""
@@ -255,6 +255,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
   # _teaching
   - scope:
       path: ""
@@ -264,6 +265,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+
   # _publications
   - scope:
       path: ""
@@ -273,6 +275,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+
   # _portfolio
   - scope:
       path: ""
@@ -282,6 +285,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+
   # _talks
   - scope:
       path: ""
@@ -291,19 +295,16 @@ defaults:
       author_profile: true
       share: true
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: Europe/London
 
 # Plugins
 plugins:
@@ -323,23 +324,24 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
-
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+# Type
+# - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+# - Jekyll Archives plugin archive pages
+#
+# Path examples:
+# - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+# - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+# - <base_path/my-awesome-category/index.html ~> path: /
+
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
+
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -351,7 +353,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
 
 # HTML Compression
 # - https://jch.penibelst.de/

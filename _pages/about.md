@@ -22,5 +22,3 @@ To address these questions, my research spans:
 - Black-hole perturbations and quasinormal modes
 - Spectral methods for gravitational physics
 - Numerical relativity and compact-binary dynamics
-
-Please use the tabs at the top of the page to explore my research, publications, teaching and CV.

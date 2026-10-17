@@ -23,8 +23,4 @@ To address these questions, my research spans:
 - Spectral methods for gravitational physics
 - Numerical relativity and compact-binary dynamics
 
-## Research, teaching and publications
-
-More information is available on the pages below:
-
-[Research](/research/) · [Publications](/publications/) · [Teaching](/teaching/) · [CV](/cv/)
+Please use the tabs at the top of the page to explore my research, publications, teaching and CV.

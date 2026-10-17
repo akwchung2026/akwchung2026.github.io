@@ -99,4 +99,4 @@ I have served as a referee for:
 - Classical and Quantum Gravity
 - International Journal of Modern Physics D
 
-For a complete record of publications, talks, teaching, awards and service, please see the [**full CV (PDF)**](/files/Adrian_Chung_CV.pdf).
+For a complete record of publications, talks, teaching, awards and service, please see the [**full CV (PDF)**](/files/CV_website.pdf).
